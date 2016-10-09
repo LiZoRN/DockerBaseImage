@@ -1,7 +1,6 @@
 FROM ubuntu:trusty
-MAINTAINER invain 
-LABEL Description="it is used as a basic image for Ubuntu.I will update and install emacs."
-Vendor="Basic image"
+MAINTAINER invain
+LABEL Description="it is used as a basic image for Ubuntu.I will update and install emacs." Vendor="Basic image"
 ADD sources.list /etc/apt/
 
 RUN \
